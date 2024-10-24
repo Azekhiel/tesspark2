@@ -1,0 +1,101 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    color: #fff;
+  }
+  
+  .nav-link {
+    color: #fff;
+  }
+  
+  .hero {
+    background-image: linear-gradient(135deg, #ffb74d, #ff6f00);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .btn-primary {
+    margin-top: 2rem;
+    padding: 0.75rem 2rem;
+    background-color: #e65100;
+    border: none;
+    font-size: 1.2rem;
+  }
+  
+  .info-box, .details-box {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .details-section {
+    background-color: #ffcc80;
+  }
+  
+  footer {
+    background-color: #ff6f00;
+    color: #fff;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  /* General Styles */
+body {
+    background-color: #ffc107; /* warna kuning */
+    color: #333; /* Warna teks default */
+  }
+  
+  .navbar {
+    background-color: #ffc107;
+  }
+  
+  footer {
+    background-color: #ffc107;
+  }
+  

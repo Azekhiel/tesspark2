@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  background-color: #ffc107; /* Warna background kuning */
+  color: #333; /* Warna teks default */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #ffc107; /* Warna navbar */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #333; /* Warna teks pada navbar */
+  margin-left: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff; /* Warna teks saat hover */
+}
+
+/* Hero Section Styles */
+.hero {
+  /* background-image: url('path/to/your-image.jpg'); */
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* Ketinggian hero section */
+  color: white;
+}
+
+.hero-box {
+    background-color: rgba(255,193,7, 0.8); /* Warna kotak dengan transparansi */
+    border-radius: 15px; /* Sudut melengkung */
+    padding: 40px; /* Ruang dalam kotak */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
+    backdrop-filter: blur(10px); /* Efek blur di belakang kotak */
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.hero .btn-primary {
+  background-color: #333;
+  border: none;
+  padding: 0.75rem 2rem;
+}
+
+.hero .btn-primary:hover {
+  background-color: #555;
+}
+
+/* Info Section Styles */
+.info-section {
+  background-color: #ffc107;
+}
+
+.info-box {
+  background-color: #ffd020;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.info-box p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Details Section Styles */
+.details-section {
+  background-color: #ffc107;
+}
+
+.details-box {
+  background-color: #ffd020;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.details-box h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.details-box p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #ffc107;
+  color: #333;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
